@@ -1,6 +1,7 @@
 ## CALCULADORA
 
  - Calculadora feita em C#
+ - Tipo de Projeto: Console
  - Possui métodos de verificação de valores inválidos.
 
 ## OPERAÇÕES 
