@@ -1,6 +1,7 @@
 ## CALCULADORA
 
- - Calculadora feita em C# 
+ - Calculadora feita em C#
+ - Possui métodos de verificação de valores inválidos.
 
 ## OPERAÇÕES 
 
