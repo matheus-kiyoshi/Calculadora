@@ -74,14 +74,14 @@ static double ValueVerify()
     double Value;
     double Val;
     string V = Console.ReadLine();
-        
+
     try
     {
         Val = double.Parse(V);
     }
     catch
     {
-        Console.WriteLine("O valor é inválido, tente novamente;");
+        Console.WriteLine("O valor é inválido, tente novamente");
         return 1242145515;
     }
 
@@ -103,6 +103,7 @@ do
     Console.WriteLine("[3] - Multiplicação");
     Console.WriteLine("[4] - Divisão");
     Console.WriteLine("[5] - Módulo/Resto");
+    Console.WriteLine();
 
     string Num;
     do
@@ -131,7 +132,7 @@ do
     {
         Value2 = ValueVerify();
     } while (Value2 == 1242145515);
-     
+
     Console.Clear();
 
     string Resultado = Calc(Num, Value1, Value2);
