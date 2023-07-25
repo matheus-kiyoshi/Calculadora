@@ -53,6 +53,17 @@
                 Console.WriteLine($"ERRO: {ex.Message}");
                 return "Inválido";
             }
+        case "5":
+            try
+            {
+                double Resultado = Value1 % Value2;
+                return Resultado.ToString();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"ERRO: {ex.Message}");
+                return "Inválido";
+            }
         default:
             return "Inválido";
     }
@@ -91,16 +102,17 @@ do
     Console.WriteLine("[2] - Subtração");
     Console.WriteLine("[3] - Multiplicação");
     Console.WriteLine("[4] - Divisão");
+    Console.WriteLine("[5] - Módulo/Resto");
 
     string Num;
     do
     {
         Num = Console.ReadLine();
-        if (Num != "1" && Num != "2" && Num != "3" && Num != "4")
+        if (Num != "1" && Num != "2" && Num != "3" && Num != "4" && Num != "5")
         {
             Console.WriteLine("Digite uma opção válida!");
         }
-    } while (Num != "1" && Num != "2" && Num != "3" && Num != "4");
+    } while (Num != "1" && Num != "2" && Num != "3" && Num != "4" && Num != "5");
 
     Console.Clear();
 
